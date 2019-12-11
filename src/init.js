@@ -11,6 +11,7 @@ minor.addToBlockChain(new Block('1', blockChain.getBlockChainList[blockChain.get
 minor.addToBlockChain(new Block('2', blockChain.getBlockChainList[blockChain.getBlockChainSize() - 1], 'transfer 3'), blockChain);
 
 console.log(JSON.stringify(blockChain));
+console.log(minor.getRewards());
 
 // {
 //   "blockList": [

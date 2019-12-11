@@ -19,4 +19,8 @@ export default class Minor {
 		const str = '0'.repeat(Constants.DIFFICULTY);
 		return hash.slice(0, Constants.DIFFICULTY) === str;
 	}
+
+	getRewards() {
+		return this.rewards;
+	}
 }
