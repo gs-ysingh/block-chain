@@ -10,4 +10,4 @@ How to run the application:
 
 `npm i`
 
-`node src/start.js`
+`npm run start`
